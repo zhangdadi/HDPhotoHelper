@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092B58421D80F48B00D890DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B58411D80F48B00D890DA /* main.m */; };
+		092B58451D80F48B00D890DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B58441D80F48B00D890DA /* AppDelegate.m */; };
+		092B58481D80F48B00D890DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B58471D80F48B00D890DA /* ViewController.m */; };
+		092B584B1D80F48B00D890DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092B58491D80F48B00D890DA /* Main.storyboard */; };
+		092B584D1D80F48B00D890DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092B584C1D80F48B00D890DA /* Assets.xcassets */; };
+		092B58501D80F48B00D890DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092B584E1D80F48B00D890DA /* LaunchScreen.storyboard */; };
+		092B585A1D80F4B700D890DA /* HDPhotoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B58591D80F4B700D890DA /* HDPhotoHelper.m */; };
+		092B585C1D80FCCB00D890DA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092B585B1D80FCCB00D890DA /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		092B583D1D80F48B00D890DA /* HDPhotoHelperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDPhotoHelperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		092B58411D80F48B00D890DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		092B58431D80F48B00D890DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		092B58441D80F48B00D890DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		092B58461D80F48B00D890DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		092B58471D80F48B00D890DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		092B584A1D80F48B00D890DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		092B584C1D80F48B00D890DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		092B584F1D80F48B00D890DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		092B58511D80F48B00D890DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092B58581D80F4B700D890DA /* HDPhotoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDPhotoHelper.h; sourceTree = "<group>"; };
+		092B58591D80F4B700D890DA /* HDPhotoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDPhotoHelper.m; sourceTree = "<group>"; };
+		092B585B1D80FCCB00D890DA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092B583A1D80F48B00D890DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B585C1D80FCCB00D890DA /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092B58341D80F48B00D890DA = {
+			isa = PBXGroup;
+			children = (
+				092B585B1D80FCCB00D890DA /* MobileCoreServices.framework */,
+				092B58571D80F4B700D890DA /* HDPhotoHelper */,
+				092B583F1D80F48B00D890DA /* HDPhotoHelperExample */,
+				092B583E1D80F48B00D890DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		092B583E1D80F48B00D890DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092B583D1D80F48B00D890DA /* HDPhotoHelperExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		092B583F1D80F48B00D890DA /* HDPhotoHelperExample */ = {
+			isa = PBXGroup;
+			children = (
+				092B58431D80F48B00D890DA /* AppDelegate.h */,
+				092B58441D80F48B00D890DA /* AppDelegate.m */,
+				092B58461D80F48B00D890DA /* ViewController.h */,
+				092B58471D80F48B00D890DA /* ViewController.m */,
+				092B58491D80F48B00D890DA /* Main.storyboard */,
+				092B584C1D80F48B00D890DA /* Assets.xcassets */,
+				092B584E1D80F48B00D890DA /* LaunchScreen.storyboard */,
+				092B58511D80F48B00D890DA /* Info.plist */,
+				092B58401D80F48B00D890DA /* Supporting Files */,
+			);
+			path = HDPhotoHelperExample;
+			sourceTree = "<group>";
+		};
+		092B58401D80F48B00D890DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				092B58411D80F48B00D890DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		092B58571D80F4B700D890DA /* HDPhotoHelper */ = {
+			isa = PBXGroup;
+			children = (
+				092B58581D80F4B700D890DA /* HDPhotoHelper.h */,
+				092B58591D80F4B700D890DA /* HDPhotoHelper.m */,
+			);
+			path = HDPhotoHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092B583C1D80F48B00D890DA /* HDPhotoHelperExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092B58541D80F48B00D890DA /* Build configuration list for PBXNativeTarget "HDPhotoHelperExample" */;
+			buildPhases = (
+				092B58391D80F48B00D890DA /* Sources */,
+				092B583A1D80F48B00D890DA /* Frameworks */,
+				092B583B1D80F48B00D890DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDPhotoHelperExample;
+			productName = HDPhotoHelperExample;
+			productReference = 092B583D1D80F48B00D890DA /* HDPhotoHelperExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092B58351D80F48B00D890DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张达棣";
+				TargetAttributes = {
+					092B583C1D80F48B00D890DA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F9WH58U84X;
+					};
+				};
+			};
+			buildConfigurationList = 092B58381D80F48B00D890DA /* Build configuration list for PBXProject "HDPhotoHelperExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 092B58341D80F48B00D890DA;
+			productRefGroup = 092B583E1D80F48B00D890DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092B583C1D80F48B00D890DA /* HDPhotoHelperExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		092B583B1D80F48B00D890DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B58501D80F48B00D890DA /* LaunchScreen.storyboard in Resources */,
+				092B584D1D80F48B00D890DA /* Assets.xcassets in Resources */,
+				092B584B1D80F48B00D890DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092B58391D80F48B00D890DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B585A1D80F4B700D890DA /* HDPhotoHelper.m in Sources */,
+				092B58481D80F48B00D890DA /* ViewController.m in Sources */,
+				092B58451D80F48B00D890DA /* AppDelegate.m in Sources */,
+				092B58421D80F48B00D890DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		092B58491D80F48B00D890DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092B584A1D80F48B00D890DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		092B584E1D80F48B00D890DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092B584F1D80F48B00D890DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		092B58521D80F48B00D890DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		092B58531D80F48B00D890DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		092B58551D80F48B00D890DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HDPhotoHelperExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HD.HDPhotoHelperExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		092B58561D80F48B00D890DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HDPhotoHelperExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HD.HDPhotoHelperExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092B58381D80F48B00D890DA /* Build configuration list for PBXProject "HDPhotoHelperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092B58521D80F48B00D890DA /* Debug */,
+				092B58531D80F48B00D890DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092B58541D80F48B00D890DA /* Build configuration list for PBXNativeTarget "HDPhotoHelperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092B58551D80F48B00D890DA /* Debug */,
+				092B58561D80F48B00D890DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092B58351D80F48B00D890DA /* Project object */;
+}
