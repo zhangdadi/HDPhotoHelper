@@ -41,6 +41,7 @@
     [[HDPhotoHelper creatWithSourceType:UIImagePickerControllerSourceTypePhotoLibrary] showWithSelectImageBlock:^(id data) {
         NSLog(@"照片数据：%@", data);
         
-    }];}
+    }];
+}
 
 @end
